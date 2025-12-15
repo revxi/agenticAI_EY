@@ -1,0 +1,26 @@
+.chat-box {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+  padding: 15px;
+  height: 250px;
+  overflow-y: auto;
+  margin-bottom: 15px;
+}
+
+.message {
+  max-width: 80%;
+  margin-bottom: 10px;
+  padding: 10px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.agent.green {
+  background: #7dff7d;
+  color: black;
+}
+
+.agent.blue {
+  background: #00ffcc;
+  color: black;
+}
