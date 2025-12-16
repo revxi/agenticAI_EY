@@ -1,0 +1,4 @@
+nohup: ignoring input
+INFO:     Will watch for changes in these directories: ['/workspaces/agenticAI_EY']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [73057] using StatReload

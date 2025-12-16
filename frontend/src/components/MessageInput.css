@@ -1,0 +1,22 @@
+.input-area {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #7dff7d;
+  background: rgba(0,0,0,0.6);
+  color: #9eff9e;
+}
+
+.input-area button {
+  padding: 10px 16px;
+  border-radius: 6px;
+  background: #7dff7d;
+  border: none;
+  font-weight: bold;
+}
