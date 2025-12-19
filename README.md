@@ -71,6 +71,7 @@ Bash
 cd frontend
 npm install
 npm start
+```
 🎨 Visual Identity
 Font: 'Share Tech Mono' (Retro-Terminal)
 
