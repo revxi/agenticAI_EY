@@ -14,6 +14,41 @@
 * **Dynamic Document Generation:** Automated production of a digital Sanction Letter (Mock PDF) upon approval.
 
 ---
+finai/
+├── .gitignore               # Prevents node_modules, venv, and .env from being uploaded
+├── README.md                # The visual guide and documentation we just wrote
+├── LICENSE                  # MIT License
+├── CONTRIBUTORS.md          # Credits for you and your AI partner
+├── Makefile                 # Shortcuts for running backend and frontend simultaneously
+│
+├── backend/                 # FastAPI Logic
+│   ├── main.py              # API Routes and Session handling
+│   ├── requirements.txt     # Python dependencies
+│   ├── .env                 # API Keys (Local only, not on GitHub)
+│   ├── agents/              # The "Brain" (Multi-Agent logic)
+│   │   ├── master.py        # The Orchestrator / State Machine
+│   │   ├── sales.py         # Humanizer Agent
+│   │   ├── verification.py  # KYC Agent
+│   │   ├── underwriting.py  # Risk Agent
+│   │   └── sanction.py      # Document Agent
+│   ├── services/            # Mock external integrations
+│   │   ├── credit_api.py    # Mock KYC/Credit Score fetching
+│   │   └── pdf_generator.py # Mock PDF Sanction Letter creation
+│   └── models/
+│       └── loan_schema.py   # Shared Pydantic data structures
+│
+└── frontend/                # React.js UI
+    ├── package.json         # Node dependencies and scripts
+    ├── public/
+    │   └── index.html       # Entry HTML (Head/Meta tags)
+    └── src/
+        ├── App.js           # Core state management & API calls
+        ├── App.css          # Sci-Fi styling (Glows, Neon Green, Dark mode)
+        ├── index.js         # React DOM renderer
+        └── components/      # UI Modular pieces
+            ├── BinaryBackground.js  # Canvas Matrix-style animation
+            ├── ChatBox.js           # Message display logic
+            └── MessageInput.js      # Sci-fi styled terminal input
 
 ## 🏗️ System Architecture
 
