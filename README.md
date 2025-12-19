@@ -65,3 +65,29 @@ python -m venv venv
 source venv/bin/activate  # Windows: .\venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn main:app --reload
+3. Frontend Installation
+Bash
+
+cd frontend
+npm install
+npm start
+🎨 Visual Identity
+Font: 'Share Tech Mono' (Retro-Terminal)
+
+Theme: Matrix Green (#00ff00) on Deep Space Gray (#1a1a1a).
+
+Background: Real-time animated binary digit stream.
+
+👥 Contributors
+reverie - Lead Architect & Full-Stack Developer
+
+Gemini - AI Thought Partner & Logic Implementation
+
+📜 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Disclaimer: This is a technical prototype. All financial data and documents are mock-ups for demonstration purposes only. Do not enter real PII.
+
+
+---
+
